@@ -26,13 +26,6 @@ body{
 	background-repeat: no-repeat;
 }
 
-h1, p {
-	color: gray;
-}
-
-
-
-
 .container {
 	position: absolute;
 	margin: auto;
@@ -41,7 +34,7 @@ h1, p {
 	bottom: 0;
 	left: 0;
 	width: 40%;
-	height: 450px; 
+	height: 500px; 
   vertical-align: middle;
   color: rgba(256,256,256,1);
   background-color: rgba(255, 255, 255, 0.9);
@@ -56,10 +49,19 @@ h1, p {
 	padding-left: 20px;
 }
 
+
+h1, p {
+	color: gray;
+}
+
+h3 {
+	color: gray;
+	margin-top: -5px;
+}
+
 label {
   display: inline-block;
   max-width: 100%;
-  margin-bottom: 5px;
 	font-weight: bold;
 	color: gray;
 }
